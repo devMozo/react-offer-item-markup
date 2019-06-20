@@ -1,0 +1,25 @@
+@import '../../stylesheets/colors.scss';
+$paddingBrands: 270px;
+
+.ItemBrands {
+    width: 100%;
+    background-color: $subSectionColor;
+    margin: 0;
+    box-shadow: inset 0px 5px 30px -20px $greyText;
+    position: relative;
+    z-index: -1;
+    padding-left: $paddingBrands;
+
+    li {
+        display: inline-block;
+        vertical-align: middle;
+        list-style: none;
+        padding: 20px 10px;
+
+        img {
+            width: 70px;
+            height: 35px;
+            object-fit: cover;
+        }
+    }
+}

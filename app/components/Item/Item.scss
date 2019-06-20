@@ -1,0 +1,30 @@
+@import '../../stylesheets/colors.scss';
+
+$sizeDescription: 650px;
+$sizeBonus: 250px;
+$sizeActions: calc(100% - #{$sizeDescription} - #{$sizeBonus});
+
+.Item {
+    width: 100%;
+    border: 4px solid $itemRedColor;
+    border-radius: 10px;
+    box-sizing: border-box;
+    & > * {
+        display: inline-block;
+        box-sizing: border-box;
+    }
+
+    .ItemDescription {
+        width: 650px;
+        vertical-align: middle;
+    }
+
+    .ItemBonus {
+        width: 250px;
+    }
+
+    .ItemActions {
+        width: $sizeActions;
+        vertical-align: middle;
+    }
+}

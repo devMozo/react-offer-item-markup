@@ -1,0 +1,45 @@
+@import '../../stylesheets/colors.scss';
+
+.ItemActions {
+    text-align: center;
+
+    & > * {
+        display: block;
+    }
+
+    .Stars {
+        display: none;
+    }
+
+    button {
+        background-color: $itemRedColor;
+        margin: 0 auto;
+        color: white;
+        font-size: 25px;
+        font-weight: 500;
+        border: 0;
+        border-radius: 10px;
+        letter-spacing: 0.5px;
+        padding: 15px 60px;
+        box-shadow: 0 1px 5px $greyText;
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+
+    a {
+        margin-top: 25px;
+        color: $greyText;
+        text-decoration: underline;
+
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}

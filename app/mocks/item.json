@@ -1,0 +1,30 @@
+{
+    "description": {
+        "numberLogo": 1,
+        "srcLogo": "https://onlinecasinohex.ca/wp-content/uploads/sports-interaction.png",
+        "description": "Betway makes it easy to get started and then keeps you there with its huge selection and numerous ways to bet.",
+        "features": ["Serving Canadians since 1997", "Best Odds for Beginners"],
+        "count": 3
+    },
+    "bonus": {
+        "benefit": 200
+    },
+    "brands": [
+        {
+            "name": "Visa",
+            "logo": "https://tentulogo.com/wp-content/uploads/VISA-CABECERA-POST-BLOG.jpg"
+        },
+        {
+            "name": "PayPal",
+            "logo": "https://www.telefonosteleco.com/wp-content/uploads/2019/03/resultado-de-imagen-para-paypal.png"
+        },
+        {
+            "name": "Maestro",
+            "logo": "https://i1.wp.com/www.ebizlatam.com/wp-content/uploads/2017/03/Maestro-Tarjeta.jpg?fit=510%2C374"
+        },
+        {
+            "name": "Western Union",
+            "logo": "https://www.oddsshark.com/sites/default/files/inline/images/western_union.jpg"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+@import '../../stylesheets/colors.scss';
+
+.Stars {
+    margin-top: 10px;
+    padding: 10px 40px;
+    border: 1px solid $metalText;
+    display: inline-block;
+    border-radius: 30px;
+
+    svg {
+        margin: 0 2px;
+    }
+}

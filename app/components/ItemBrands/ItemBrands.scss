@@ -22,4 +22,16 @@ $paddingBrands: 270px;
             object-fit: cover;
         }
     }
+
+    @media (max-width: 425px) {
+        padding-left: 0;
+        text-align: center;
+
+        li {
+            img {
+                width: 50px;
+                height: 25px;
+            }
+        }
+    }
 }

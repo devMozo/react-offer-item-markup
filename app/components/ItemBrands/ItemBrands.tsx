@@ -7,8 +7,8 @@ export default (props: ItemBrandsProps) => {
 
     return (
         <ul className="ItemBrands">
-            {brands.map(brand => (
-                <li>
+            {brands.map((brand, key) => (
+                <li key={key}>
                     <img src={brand.logo} alt={brand.name} />
                 </li>
             ))}

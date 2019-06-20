@@ -27,4 +27,19 @@ $sizeActions: calc(100% - #{$sizeDescription} - #{$sizeBonus});
         width: $sizeActions;
         vertical-align: middle;
     }
+
+    @media (max-width: 425px) {
+        .ItemDescription {
+            width: 230px;
+        }
+
+        .ItemBonus {
+            width: 150px;
+        }
+
+        .ItemActions {
+            width: 100%;
+            display: block;
+        }
+    }
 }

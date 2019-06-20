@@ -3,6 +3,10 @@ $sizeSpan: 40px;
 $sizeLogo: 200px;
 $sizeInfoWrapper: 350px;
 
+$sizeSpanMobile: 40px;
+$sizeLogoMobile: 150px;
+$sizeInfoWrapperMobile: 150px;
+
 .ItemDescription {
     .ItemDescription__logo,
     .ItemDescription__info {
@@ -66,6 +70,72 @@ $sizeInfoWrapper: 350px;
                     margin-right: 10px;
                 }
             }
+        }
+    }
+
+    @media (max-width: 425px) {
+        .ItemDescription__logo,
+        .ItemDescription__info {
+            display: block;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        .ItemDescription__logo {
+            width: $sizeLogoMobile;
+            position: relative;
+
+            picture {
+                position: relative;
+                top: -50px;
+
+                img {
+                    width: $sizeLogoMobile;
+                    height: $sizeLogoMobile;
+                }
+            }
+
+            span {
+                width: $sizeSpanMobile;
+                height: $sizeSpanMobile;
+                line-height: $sizeSpanMobile;
+                z-index: 10;
+                top: -60px;
+            }
+        }
+
+        .ItemDescription__info {
+            width: $sizeInfoWrapperMobile;
+            position: relative;
+            top: -50px;
+
+            p {
+                display: none;
+            }
+
+            .ItemDescription__features {
+                padding: 0;
+
+                li {
+                    color: $blackText;
+                    list-style: none;
+
+                    &,
+                    & > svg {
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+
+                    svg {
+                        color: $metalText;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+
+        .Stars {
+            display: none;
         }
     }
 }

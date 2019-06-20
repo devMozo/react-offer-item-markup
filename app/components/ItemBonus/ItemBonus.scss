@@ -51,4 +51,12 @@
         font-size: 35px;
         color: $itemRedColor;
     }
+
+    @media (max-width: 425px) {
+        padding: 5px 20px 80px;
+
+        p {
+            font-size: 28px;
+        }
+    }
 }

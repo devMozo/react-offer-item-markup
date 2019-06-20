@@ -10,4 +10,13 @@
     svg {
         margin: 0 2px;
     }
+
+    @media (max-width: 425px) {
+        padding: 10px 20px;
+
+        svg {
+            width: 15px;
+            height: 15px;
+        }
+    }
 }

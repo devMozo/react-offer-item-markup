@@ -42,4 +42,16 @@
             opacity: 0.6;
         }
     }
+
+    @media (max-width: 425px) {
+        .ItemActions__tools {
+            justify-content: space-around;
+            display: flex;
+            margin: 20px 0;
+
+            & * {
+                display: inline-block;
+            }
+        }
+    }
 }

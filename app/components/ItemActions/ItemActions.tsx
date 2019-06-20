@@ -9,8 +9,10 @@ export default (props: ItemActionProps) => {
     return (
         <section className="ItemActions">
             <button> Play Now </button>
-            <Stars count={count} />
-            <a> Our Review </a>
+            <div className="ItemActions__tools">
+                <Stars count={count} />
+                <a> Our Review </a>
+            </div>
         </section>
     );
 };

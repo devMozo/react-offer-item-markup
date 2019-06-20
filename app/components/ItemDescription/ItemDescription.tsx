@@ -18,8 +18,8 @@ export default (props: ItemDescriptionProps) => {
             <div className="ItemDescription__info">
                 <p>{description}</p>
                 <ul className="ItemDescription__features">
-                    {features.map(feature => (
-                        <li>
+                    {features.map((feature, key) => (
+                        <li key={key}>
                             {' '}
                             <FaCheck /> {feature}{' '}
                         </li>

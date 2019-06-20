@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { ItemBonusProps } from './typing';
+import './ItemBonus.scss';
 
 export default (props: ItemBonusProps) => {
     const { benefit } = props;
